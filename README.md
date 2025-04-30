@@ -13,7 +13,7 @@ To setup, run the following in the root directory of the repository:
 
 To use the notebooks, select the created .venv folder as the notebook kernel.
 
-To run individual scripts, within the scripts folder use `uv run -m scripts.<script> <script-arguments>`.
+To run individual scripts within the scripts folder use `uv run -m scripts.<script> <script-arguments>`.
 
 ### Code Documentation
 
@@ -58,3 +58,4 @@ Contains executable scripts
 - `qiskit_sim_with_replacement.py`
    - Runs close neighbors with replacement using the `QiskitGroversStaticPhaseOracle`
    - Not used to generate paper results
+   - Example usage: `uv run -m scripts.qiskit_sim_with_replacement <num_particles> <num_neighbors_per_particle> <path/to/output/directory>`
