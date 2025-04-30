@@ -11,7 +11,7 @@ To setup, run the following in the root directory of the repository:
    - This makes it so the `quantum_close_neighbors` package within `src` can be imported from your environment
    - If you plan on making edits to the code, install in editable mode: `uv pip install -e .`
 
-To use the notebooks, select the created .venv folder as the notebook kernel.
+To use the notebooks, select the created `.venv` folder as the notebook kernel.
 
 To run individual scripts within the scripts folder use `uv run -m scripts.<script> <script-arguments>`.
 
