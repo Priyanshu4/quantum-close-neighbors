@@ -8,7 +8,7 @@ This project uses the [uv](https://docs.astral.sh/uv/getting-started/) python pa
 To setup, run the following in the root directory of the repository:
 1. `uv venv` - create a virtual environment 
 2. `uv pip install .` - installs the current package
-   - This makes it so the `quantum_close_neighbors` and `particle_sim` packages within `src` can be imported from your environment
+   - This makes it so the `quantum_close_neighbors` package within `src` can be imported from your environment
    - If you plan on making edits to the code, install in editable mode: `uv pip install -e .`
 
 To use the notebooks, select the created .venv folder as the notebook kernel.
