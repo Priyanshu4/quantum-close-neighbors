@@ -1,0 +1,20 @@
+[project]
+name = "quantum-close-neighbors"
+version = "0.1.0"
+description = "Implementation of \"Hybrid Quantum Algorithms for N-Body Simulations\" submitted to QCNC 2025"
+readme = "README.md"
+requires-python = ">=3.8, <3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "qiskit",
+    "qiskit-aer",
+    "matplotlib",
+    "tweedledum",
+    "tqdm",
+    "ipykernel>=6.29.5",
+    "pytest>=8.3.5",
+]
+
+[tool.uv]
+package = true
